@@ -43,40 +43,43 @@ export interface ColorValue {
   a: number;
 }
 
+export interface DecalMaterialParameters {
+  DiffuseTexture?: string;
+  DiffuseColor?: ColorValue;
+  DiffuseAlpha?: number;
+  UVOffsetX?: number;
+  UVOffsetY?: number;
+  UVRotation?: number;
+  UVScaleX?: number;
+  UVScaleY?: number;
+  SecondaryMask?: string;
+  SecondaryMaskUVScale?: number;
+  SecondaryMaskInfluence?: number;
+  NormalTexture?: string;
+  NormalAlpha?: number;
+  NormalAlphaTex?: string;
+  UseNormalAlphaTex?: number;
+  NormalsBlendingMode?: number;
+  NormalsBlendingModeAlpha?: string;
+  RoughnessTexture?: string;
+  RoughnessScale?: number;
+  RoughnessBias?: number;
+  MetalnessTexture?: string;
+  MetalnessScale?: number;
+  MetalnessBias?: number;
+  AlphaMaskContrast?: number;
+  RoughnessMetalnessAlpha?: number;
+  AnimationSpeed?: number;
+  AnimationFramesWidth?: number;
+  AnimationFramesHeight?: number;
+  DepthThreshold?: number;
+}
+
 export interface DecalMaterialInstance {
   name: string;
-  parameters: {
-    DiffuseTexture?: string;
-    DiffuseColor?: ColorValue;
-    DiffuseAlpha?: number;
-    UVOffsetX?: number;
-    UVOffsetY?: number;
-    UVRotation?: number;
-    UVScaleX?: number;
-    UVScaleY?: number;
-    SecondaryMask?: string;
-    SecondaryMaskUVScale?: number;
-    SecondaryMaskInfluence?: number;
-    NormalTexture?: string;
-    NormalAlpha?: number;
-    NormalAlphaTex?: string;
-    UseNormalAlphaTex?: number;
-    NormalsBlendingMode?: number;
-    NormalsBlendingModeAlpha?: string;
-    RoughnessTexture?: string;
-    RoughnessScale?: number;
-    RoughnessBias?: number;
-    MetalnessTexture?: string;
-    MetalnessScale?: number;
-    MetalnessBias?: number;
-    AlphaMaskContrast?: number;
-    RoughnessMetalnessAlpha?: number;
-    AnimationSpeed?: number;
-    AnimationFramesWidth?: number;
-    AnimationFramesHeight?: number;
-    DepthThreshold?: number;
-  };
+  parameters: DecalMaterialParameters;
 }
+
 export const DecalMaterialInstance = {
   // to (): RedEngine.CMaterialInstance
 };
