@@ -1,0 +1,7 @@
+# XF: Omega
+
+This is an early stage work in progress that begins with an effort to define a comprehensive suite of TypeScript-based types, interfaces, tools and utilities designed for scripting and automating various aspects of the Cyberpunk 2077 modding process in conjunction with [WolvenKit](https://github.com/WolvenKit). Automated integration leverages the [WolvenKit CLI](https://github.com/WolvenKit/WolvenKit/tree/main/WolvenKit.CLI).
+
+I have a whole lot of plans in mind that I will share in due course, but at this stage I wanted to at least start sharing the type definitions, utilities and so forth. I have a lot of additional code already that has not yet been added to the repository, but it needs to be cleaned up and rewritten to a large extent. Work on type definitions will initially be on an as-needed basis as I'm currently learning my way around the modding process by developing an [ArchiveXL](https://wiki.redmodding.org/cyberpunk-2077-modding/for-mod-creators-theory/core-mods-explained/archivexl) mod, and using that to drive my decisions regarding what tools and types initially make it into the repository.
+
+In the meantime, contributions to the effort to fill out a complete set of type definitions and [Zod](https://zod.dev/) schemas will be welcomed. For anything else, get in touch with me on the [Cyberpunk 2077 Modding Community Discord server](https://discord.gg/Epkq79kd96) or [start a discussion](https://github.com/xf-hq/omega/discussions).
