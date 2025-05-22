@@ -1,3 +1,10 @@
+/**
+ * This file contains the original set of TypeScript interfaces and factory functions I created while getting a foothold
+ * on automating the import, export and generation of various game files. I'm now in the process of implementing
+ * canonical interfaces, Zod schemas and better functions and tools for working with each of the various types. This
+ * file will be retired in the future.
+ */
+
 import { isNumber, isUndefined } from '@common/general/type-checking';
 
 export interface RedEngineFile<T = unknown> {

@@ -1,4 +1,4 @@
-import type { RedEngine } from '../../red-engine/engine-types';
+import type { RedEngine } from '../../red-engine/_engine-types';
 
 // Parameter Types:
 // - 1: "CMaterialParameterTexture"
