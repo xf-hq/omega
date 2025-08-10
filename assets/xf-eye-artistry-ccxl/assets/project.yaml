@@ -1,0 +1,41 @@
+textures:
+  e01: Eyeliner 01
+  e02: Eyeliner 02
+  e03: Eyeliner 03
+  e04: Eyeliner 04
+  e05: Eyeliner 05
+  e06: Eyeliner 06
+  e07: Eyeliner 07
+  e08: Eyeliner 08
+  e09: Eyeliner 09
+  s01: Eyeshadow 01
+  s02: Eyeshadow 02
+  s03: Eyeshadow 03
+  s04: Eyeshadow 04
+  s05: Eyeshadow 05
+  s06: Eyeshadow 06
+  s07: Eyeshadow 07
+  s08: Eyeshadow 08
+  s09: Eyeshadow 09
+  s10: Eyeshadow 10
+  s11: Eyeshadow 11
+
+lists:
+  eyeliners: [e01, e02, e03, e04, e05, e06, e07, e08, e09]
+  eyeshadows: [s01, s02, s03, s04, s05, s06, s07, s08, s09, s10, s11]
+
+ccxl:
+  firstSwitcherGlobalIndex: 311 # 311 # Between "teeth" (310) and "makeupEyes" (450)
+  switcherGroups:
+    - identifier: layer1
+      label: "XFEA Layer 1"
+      include: [eyeliners, eyeshadows]
+    - identifier: layer2
+      label: "XFEA Layer 2"
+      include: [eyeshadows, eyeliners]
+    - identifier: layer3
+      label: "XFEA Layer 3"
+      include: [eyeshadows, eyeliners]
+    - identifier: layer4
+      label: "XFEA Layer 4"
+      include: [eyeshadows, eyeliners]

@@ -1,0 +1,1610 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.16.2-nightly.2025-06-16",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2200,
+    "ExportedDateTime": "",
+    "DataType": "CR2W",
+    "ArchiveFileName": ""
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "CMaterialTemplate",
+      "audioTag": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "canBeMasked": 1,
+      "canHaveDismemberment": 1,
+      "canHaveTangentUpdate": 1,
+      "cookingPlatform": "PLATFORM_PC",
+      "hasDPL": 0,
+      "materialPriority": "EMP_Front",
+      "materialType": "RMT_Standard",
+      "materialVersion": 5,
+      "name": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "mesh_decal"
+      },
+      "paramBlockSize": {
+        "Elements": [0,4,144
+        ]
+      },
+      "parameterInfo": [
+        [
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "VertexOffsetFactor"
+            },
+            "offset": 0,
+            "type": 5
+          }
+        ],
+        [
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "DiffuseTexture"
+            },
+            "offset": 0,
+            "type": 1
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "DiffuseColor"
+            },
+            "offset": 8,
+            "type": 2
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "DiffuseAlpha"
+            },
+            "offset": 12,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "UVOffsetX"
+            },
+            "offset": 16,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "UVOffsetY"
+            },
+            "offset": 20,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "UVRotation"
+            },
+            "offset": 24,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "UVScaleX"
+            },
+            "offset": 28,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "UVScaleY"
+            },
+            "offset": 32,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "SecondaryMask"
+            },
+            "offset": 36,
+            "type": 1
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "SecondaryMaskUVScale"
+            },
+            "offset": 44,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "SecondaryMaskInfluence"
+            },
+            "offset": 48,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "NormalTexture"
+            },
+            "offset": 52,
+            "type": 1
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "NormalAlpha"
+            },
+            "offset": 60,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "NormalAlphaTex"
+            },
+            "offset": 64,
+            "type": 1
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "UseNormalAlphaTex"
+            },
+            "offset": 72,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "NormalsBlendingMode"
+            },
+            "offset": 76,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "NormalsBlendingModeAlpha"
+            },
+            "offset": 80,
+            "type": 1
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "RoughnessTexture"
+            },
+            "offset": 88,
+            "type": 1
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "RoughnessScale"
+            },
+            "offset": 96,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "RoughnessBias"
+            },
+            "offset": 100,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "MetalnessTexture"
+            },
+            "offset": 104,
+            "type": 1
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "MetalnessScale"
+            },
+            "offset": 112,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "MetalnessBias"
+            },
+            "offset": 116,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "AlphaMaskContrast"
+            },
+            "offset": 120,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "RoughnessMetalnessAlpha"
+            },
+            "offset": 124,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "AnimationSpeed"
+            },
+            "offset": 128,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "AnimationFramesWidth"
+            },
+            "offset": 132,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "AnimationFramesHeight"
+            },
+            "offset": 136,
+            "type": 5
+          },
+          {
+            "$type": "CMaterialParameterInfo",
+            "name": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "DepthThreshold"
+            },
+            "offset": 140,
+            "type": 5
+          }
+        ]
+      ],
+      "parameters": {
+        "Elements": [
+          [],
+          [
+            {
+              "HandleId": "0",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": 0,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "VertexOffsetFactor"
+                },
+                "register": 0,
+                "scalar": 0
+              }
+            }
+          ],
+          [
+            {
+              "HandleId": "1",
+              "Data": {
+                "$type": "CMaterialParameterTexture",
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "DiffuseTexture"
+                },
+                "register": 0,
+                "texture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\grey.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            },
+            {
+              "HandleId": "2",
+              "Data": {
+                "$type": "CMaterialParameterColor",
+                "color": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 255,
+                  "Green": 255,
+                  "Red": 255
+                },
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "DiffuseColor"
+                },
+                "register": 1
+              }
+            },
+            {
+              "HandleId": "3",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 3.40282347E+38,
+                "min": -3.40282347E+38,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "DiffuseAlpha"
+                },
+                "register": 2,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "4",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": -1,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "UVOffsetX"
+                },
+                "register": 3,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "5",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": -1,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "UVOffsetY"
+                },
+                "register": 4,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "6",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": -1,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "UVRotation"
+                },
+                "register": 5,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "7",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 3.40282347E+38,
+                "min": -3.40282347E+38,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "UVScaleX"
+                },
+                "register": 6,
+                "scalar": 1
+              }
+            },
+            {
+              "HandleId": "8",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 3.40282347E+38,
+                "min": -3.40282347E+38,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "UVScaleY"
+                },
+                "register": 7,
+                "scalar": 1
+              }
+            },
+            {
+              "HandleId": "9",
+              "Data": {
+                "$type": "CMaterialParameterTexture",
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "SecondaryMask"
+                },
+                "register": 8,
+                "texture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            },
+            {
+              "HandleId": "10",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 100,
+                "min": 1,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "SecondaryMaskUVScale"
+                },
+                "register": 9,
+                "scalar": 1
+              }
+            },
+            {
+              "HandleId": "11",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": 0,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "SecondaryMaskInfluence"
+                },
+                "register": 10,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "12",
+              "Data": {
+                "$type": "CMaterialParameterTexture",
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NormalTexture"
+                },
+                "register": 11,
+                "texture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\normal.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            },
+            {
+              "HandleId": "13",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 3.40282347E+38,
+                "min": -3.40282347E+38,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NormalAlpha"
+                },
+                "register": 12,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "14",
+              "Data": {
+                "$type": "CMaterialParameterTexture",
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NormalAlphaTex"
+                },
+                "register": 13,
+                "texture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            },
+            {
+              "HandleId": "15",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": 0,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "UseNormalAlphaTex"
+                },
+                "register": 14,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "16",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": 0,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NormalsBlendingMode"
+                },
+                "register": 15,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "17",
+              "Data": {
+                "$type": "CMaterialParameterTexture",
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NormalsBlendingModeAlpha"
+                },
+                "register": 16,
+                "texture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            },
+            {
+              "HandleId": "18",
+              "Data": {
+                "$type": "CMaterialParameterTexture",
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "RoughnessTexture"
+                },
+                "register": 17,
+                "texture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            },
+            {
+              "HandleId": "19",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 2,
+                "min": 0,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "RoughnessScale"
+                },
+                "register": 18,
+                "scalar": 1
+              }
+            },
+            {
+              "HandleId": "20",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": 0,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "RoughnessBias"
+                },
+                "register": 19,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "21",
+              "Data": {
+                "$type": "CMaterialParameterTexture",
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "MetalnessTexture"
+                },
+                "register": 20,
+                "texture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\black.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            },
+            {
+              "HandleId": "22",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 2,
+                "min": 0,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "MetalnessScale"
+                },
+                "register": 21,
+                "scalar": 1
+              }
+            },
+            {
+              "HandleId": "23",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": 0,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "MetalnessBias"
+                },
+                "register": 22,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "24",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 1,
+                "min": -1,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "AlphaMaskContrast"
+                },
+                "register": 23,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "25",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 3.40282347E+38,
+                "min": -3.40282347E+38,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "RoughnessMetalnessAlpha"
+                },
+                "register": 24,
+                "scalar": 0
+              }
+            },
+            {
+              "HandleId": "26",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 3.40282347E+38,
+                "min": -3.40282347E+38,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "AnimationSpeed"
+                },
+                "register": 25,
+                "scalar": 1
+              }
+            },
+            {
+              "HandleId": "27",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 3.40282347E+38,
+                "min": -3.40282347E+38,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "AnimationFramesWidth"
+                },
+                "register": 26,
+                "scalar": 1
+              }
+            },
+            {
+              "HandleId": "28",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 3.40282347E+38,
+                "min": -3.40282347E+38,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "AnimationFramesHeight"
+                },
+                "register": 27,
+                "scalar": 1
+              }
+            },
+            {
+              "HandleId": "29",
+              "Data": {
+                "$type": "CMaterialParameterScalar",
+                "max": 10,
+                "min": 0,
+                "parameterName": {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "DepthThreshold"
+                },
+                "register": 28,
+                "scalar": 0.5
+              }
+            }
+          ]
+        ]
+      },
+      "resourceVersion": 4,
+      "samplerStates": {
+        "Elements": [
+          [],
+          [],
+          [
+            {
+              "$type": "SamplerStateInfo",
+              "addressU": "TA_Wrap",
+              "addressV": "TA_Wrap",
+              "addressW": "TA_Wrap",
+              "comparisonFunc": "TCF_None",
+              "filteringMag": "TFMag_Linear",
+              "filteringMin": "TFMin_Anisotropic",
+              "filteringMip": "TFMip_Linear",
+              "register": 0
+            }
+          ]
+        ]
+      },
+      "shadingRateMode": "MSRM_Default",
+      "techniques": [
+        {
+          "$type": "MaterialTechnique",
+          "featureFlagsEnabledMask": {
+            "$type": "FeatureFlagsMask",
+            "flags": "1"
+          },
+          "passes": [
+            {
+              "$type": "MaterialPass",
+              "blendMode": {
+                "$type": "PSODescBlendModeDesc",
+                "alphaToCoverage": 0,
+                "independent": 1,
+                "numTargets": 3,
+                "renderTarget": {
+                  "Elements": [
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 1,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_InvSrcAlpha",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_SrcAlpha",
+                      "writeMask": "MASK_RGB"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 1,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_InvSrcAlpha",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_SrcAlpha",
+                      "writeMask": "MASK_RGB"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 1,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_InvSrcAlpha",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_SrcAlpha",
+                      "writeMask": "MASK_RGB"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    }
+                  ]
+                }
+              },
+              "depthStencilMode": {
+                "$type": "PSODescDepthStencilModeDesc",
+                "depthFunc": "COMPARISON_GreaterEqual",
+                "depthTestEnable": 1,
+                "depthWriteEnable": 0,
+                "frontFace": {
+                  "$type": "PSODescStencilFuncDesc",
+                  "stencilFunc": "COMPARISON_Never",
+                  "stencilPassOp": "STENCILOP_Keep"
+                },
+                "stencilEnable": 0,
+                "stencilReadMask": 0,
+                "stencilWriteMask": 0
+              },
+              "enablePixelShader": 1,
+              "orderIndex": 0,
+              "rasterizerMode": {
+                "$type": "PSODescRasterizerModeDesc",
+                "allowMSAA": 0,
+                "conservativeRasterization": 0,
+                "cullMode": "CULL_Front",
+                "frontWinding": "FRONTFACE_CCW",
+                "offsetMode": "OFFSET_DecalBias",
+                "scissors": 0,
+                "valid": 1,
+                "wireframe": 0
+              },
+              "stagePassNameDiscarded": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "renderstage_post_gbuffer"
+              },
+              "stagePassNameRegular": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "renderstage_post_gbuffer"
+              },
+              "stencilReadMask": 0,
+              "stencilRef": 0,
+              "stencilWriteMask": 0
+            }
+          ],
+          "streamsToBind": 7
+        },
+        {
+          "$type": "MaterialTechnique",
+          "featureFlagsEnabledMask": {
+            "$type": "FeatureFlagsMask",
+            "flags": "8"
+          },
+          "passes": [
+            {
+              "$type": "MaterialPass",
+              "blendMode": {
+                "$type": "PSODescBlendModeDesc",
+                "alphaToCoverage": 0,
+                "independent": 1,
+                "numTargets": 3,
+                "renderTarget": {
+                  "Elements": [
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 1,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_InvSrcAlpha",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_SrcAlpha",
+                      "writeMask": "MASK_RGB"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 1,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_InvSrcAlpha",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_SrcAlpha",
+                      "writeMask": "MASK_RGB"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 1,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_InvSrcAlpha",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_SrcAlpha",
+                      "writeMask": "MASK_RGB"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    }
+                  ]
+                }
+              },
+              "depthStencilMode": {
+                "$type": "PSODescDepthStencilModeDesc",
+                "depthFunc": "COMPARISON_GreaterEqual",
+                "depthTestEnable": 1,
+                "depthWriteEnable": 1,
+                "frontFace": {
+                  "$type": "PSODescStencilFuncDesc",
+                  "stencilFunc": "COMPARISON_Always",
+                  "stencilPassOp": "STENCILOP_Replace"
+                },
+                "stencilEnable": 1,
+                "stencilReadMask": 0,
+                "stencilWriteMask": 1
+              },
+              "enablePixelShader": 0,
+              "orderIndex": 0,
+              "rasterizerMode": {
+                "$type": "PSODescRasterizerModeDesc",
+                "allowMSAA": 0,
+                "conservativeRasterization": 0,
+                "cullMode": "CULL_Front",
+                "frontWinding": "FRONTFACE_CCW",
+                "offsetMode": "OFFSET_DecalBias",
+                "scissors": 0,
+                "valid": 1,
+                "wireframe": 0
+              },
+              "stagePassNameDiscarded": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "renderstage_gbuffer_regular"
+              },
+              "stagePassNameRegular": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "renderstage_gbuffer_regular"
+              },
+              "stencilReadMask": 0,
+              "stencilRef": 1,
+              "stencilWriteMask": 255
+            }
+          ],
+          "streamsToBind": 1
+        },
+        {
+          "$type": "MaterialTechnique",
+          "featureFlagsEnabledMask": {
+            "$type": "FeatureFlagsMask",
+            "flags": "512"
+          },
+          "passes": [
+            {
+              "$type": "MaterialPass",
+              "blendMode": {
+                "$type": "PSODescBlendModeDesc",
+                "alphaToCoverage": 0,
+                "independent": 1,
+                "numTargets": 3,
+                "renderTarget": {
+                  "Elements": [
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 1,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_InvSrcAlpha",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_SrcAlpha",
+                      "writeMask": "MASK_RGB"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 1,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_InvSrcAlpha",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_SrcAlpha",
+                      "writeMask": "MASK_RGB"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 1,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_InvSrcAlpha",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_SrcAlpha",
+                      "writeMask": "MASK_RGB"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    },
+                    {
+                      "$type": "PSODescRenderTarget",
+                      "alphaOp": "OP_Add",
+                      "blendEnable": 0,
+                      "colorOp": "OP_Add",
+                      "destAlphaFactor": "FAC_One",
+                      "destFactor": "FAC_One",
+                      "srcAlphaFactor": "FAC_Zero",
+                      "srcFactor": "FAC_Zero",
+                      "writeMask": "MASK_RGBA"
+                    }
+                  ]
+                }
+              },
+              "depthStencilMode": {
+                "$type": "PSODescDepthStencilModeDesc",
+                "depthFunc": "COMPARISON_GreaterEqual",
+                "depthTestEnable": 1,
+                "depthWriteEnable": 0,
+                "frontFace": {
+                  "$type": "PSODescStencilFuncDesc",
+                  "stencilFunc": "COMPARISON_Always",
+                  "stencilPassOp": "STENCILOP_Replace"
+                },
+                "stencilEnable": 1,
+                "stencilReadMask": 0,
+                "stencilWriteMask": 1
+              },
+              "enablePixelShader": 1,
+              "orderIndex": 0,
+              "rasterizerMode": {
+                "$type": "PSODescRasterizerModeDesc",
+                "allowMSAA": 0,
+                "conservativeRasterization": 0,
+                "cullMode": "CULL_Front",
+                "frontWinding": "FRONTFACE_CCW",
+                "offsetMode": "OFFSET_DecalBias",
+                "scissors": 0,
+                "valid": 1,
+                "wireframe": 0
+              },
+              "stagePassNameDiscarded": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "renderstage_highlights_discarded"
+              },
+              "stagePassNameRegular": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "renderstage_highlights"
+              },
+              "stencilReadMask": 0,
+              "stencilRef": 1,
+              "stencilWriteMask": 255
+            }
+          ],
+          "streamsToBind": 31
+        }
+      ],
+      "usedParameters": {
+        "Elements": [
+          [],
+          [
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "VertexOffsetFactor"
+              },
+              "register": 0
+            }
+          ],
+          [
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "DiffuseTexture"
+              },
+              "register": 0
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "DiffuseAlpha"
+              },
+              "register": 2
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "NormalTexture"
+              },
+              "register": 11
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "NormalAlpha"
+              },
+              "register": 12
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "RoughnessTexture"
+              },
+              "register": 17
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "MetalnessTexture"
+              },
+              "register": 20
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "RoughnessMetalnessAlpha"
+              },
+              "register": 24
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "AnimationSpeed"
+              },
+              "register": 25
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "AnimationFramesWidth"
+              },
+              "register": 26
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "AnimationFramesHeight"
+              },
+              "register": 27
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "DepthThreshold"
+              },
+              "register": 28
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "DiffuseColor"
+              },
+              "register": 1
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "NormalsBlendingMode"
+              },
+              "register": 15
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "AlphaMaskContrast"
+              },
+              "register": 23
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "UVOffsetX"
+              },
+              "register": 3
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "UVOffsetY"
+              },
+              "register": 4
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "UVRotation"
+              },
+              "register": 5
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "SecondaryMask"
+              },
+              "register": 8
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "SecondaryMaskUVScale"
+              },
+              "register": 9
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "SecondaryMaskInfluence"
+              },
+              "register": 10
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "NormalAlphaTex"
+              },
+              "register": 13
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "UVScaleX"
+              },
+              "register": 6
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "UVScaleY"
+              },
+              "register": 7
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "UseNormalAlphaTex"
+              },
+              "register": 14
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "RoughnessScale"
+              },
+              "register": 18
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "RoughnessBias"
+              },
+              "register": 19
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "MetalnessScale"
+              },
+              "register": 21
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "MetalnessBias"
+              },
+              "register": 22
+            },
+            {
+              "$type": "MaterialUsedParameter",
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "NormalsBlendingModeAlpha"
+              },
+              "register": 16
+            }
+          ]
+        ]
+      },
+      "vertexFactories": [
+        "MVF_MeshStatic",
+        "MVF_MeshSkinned",
+        "MVF_MeshExtSkinned",
+        "MVF_GarmentMeshSkinned",
+        "MVF_GarmentMeshExtSkinned",
+        "MVF_MeshDestructibleSkinned",
+        "MVF_MeshSkinnedSingleBone",
+        "MVF_MeshSkinnedVehicle",
+        "MVF_MeshStaticVehicle"
+      ]
+    },
+    "EmbeddedFiles": []
+  }
+}

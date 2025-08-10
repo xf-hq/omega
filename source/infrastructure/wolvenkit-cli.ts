@@ -1,3 +1,4 @@
+import { brown } from '@xf-common/terminal/colorizers';
 import type { UserConfig } from '../config';
 import { $ } from 'bun';
 import FSP from 'fs/promises';
@@ -77,6 +78,7 @@ export class WolvenKitCLI {
     const cliPath = this.config.wolvenKitCLIExePath;
     const inputPath = params.filePathToConvert;
     const outputPath = await this.ensureOutputDirectory(params.outputDirectory);
+    console.debug(brown(`${cliPath} convert deserialize "${inputPath}" -o "${outputPath}"${params.verbosity ? ` -v ${params.verbosity}` : ''}`));
     const result = await $`${cliPath} convert deserialize "${inputPath}" -o "${outputPath}"${params.verbosity ? ` -v ${params.verbosity}` : ''}`;
     return result;
   }
